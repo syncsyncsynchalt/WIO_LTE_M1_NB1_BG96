@@ -1,0 +1,8 @@
+[submodule "SeeedJP_STM32F4"]
+	path = SeeedJP_STM32F4
+	url = https://github.com/syncsyncsynchalt/SeeedJP_STM32F4.git
+	branch = develop
+[submodule "Wio_cell_lib_for_Arduino"]
+	path = Wio_cell_lib_for_Arduino
+	url = https://github.com/syncsyncsynchalt/Wio_cell_lib_for_Arduino.git
+	branch = develop
