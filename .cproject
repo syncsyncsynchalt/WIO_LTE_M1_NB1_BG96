@@ -48,6 +48,7 @@
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src/Internal/slre.901d42c"/>
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src/Internal"/>
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src"/>
+									<listOptionValue builtIn="false" value="../src"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1768070081" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__weak=__attribute__((weak))"/>
@@ -77,6 +78,7 @@
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src/Internal/slre.901d42c"/>
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src/Internal"/>
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src"/>
+									<listOptionValue builtIn="false" value="../src"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.934880283" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__weak=__attribute__((weak))"/>
