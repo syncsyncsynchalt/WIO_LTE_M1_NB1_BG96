@@ -2,6 +2,8 @@
 
 debuggerの無いArduino IDEだと辛いから作った。
 
+![](sw4stm32.png)
+
 # 導入手順
 
 1. System Workbench for STM32(SW4STM32) をダウンロードしてインストールする  [install_sw4stm32_win_64bits-v2.7.exe](http://www.ac6-tools.com/downloads/SW4STM32/install_sw4stm32_win_64bits-v2.7.exe)
