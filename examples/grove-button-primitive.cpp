@@ -19,7 +19,7 @@ void setup() {
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GRO_POWR_GPIO_Port, &GPIO_InitStruct);
 
-  HAL_GPIO_WritePin(GRO_POWR_GPIO_Port, GPIO_MODE_OUTPUT_PP, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GRO_POWR_GPIO_Port, GRO_POWR_Pin, GPIO_PIN_SET);
 
   GPIO_InitStruct.Pin = D38_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
