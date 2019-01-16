@@ -1,13 +1,20 @@
+# Wio LTE M1/NB1(BG96) ã‚’  SW4STM32 ã§é–‹ç™ºã™ã‚‹ãŸã‚ã®ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆé››å½¢
 
-CubeMX‹N“®‚·‚é‚½‚Ñ‚Édo not gen main‚ª‹L˜^‚³‚ê‚Ä‚È‚¢B
+debuggerã®ç„¡ã„Arduino IDEã ã¨è¾›ã„ã‹ã‚‰ä½œã£ãŸã€‚
 
+# å°Žå…¥æ‰‹é †
 
-ƒ}ƒCƒRƒ“‚ÌŽü”g” 120MHz ‚®‚ç‚¢‚ð‹«‚ÉWioSK6812‚ÌLED§Œä‚ª‰ó‚ê‚éBƒ^ƒCƒ~ƒ“ƒOŒˆ‚ß‘Å‚¿‚¾‚©‚çB“K“–‚ÉWioSK6812.cpp‚ÌDelayLoop•Ï‚¦‚éB
+1. System Workbench for STM32(SW4STM32) ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹  [install_sw4stm32_win_64bits-v2.7.exe](http://www.ac6-tools.com/downloads/SW4STM32/install_sw4stm32_win_64bits-v2.7.exe)
+1. æœ¬ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã‚’git cloneã™ã‚‹ `git clone --recursive https://github.com/syncsyncsynchalt/WIO_LTE_M1_NB1_BG96.git`
+1. SW4STM32ã‚’èµ·å‹•ã—ã¦ã€ã‚¤ãƒ³ãƒãƒ¼ãƒˆã™ã‚‹
+1. build all
+1. Wio LTE M1/NB1(BG96) ã‚’USBã§ç¹‹ã
+1. debug
 
+# ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ¼ãƒ‰
 
-./examples/Grove3AxisDigitalAccelerometer15.cpp
-Grove‚Ì3Ž²‰Á‘¬“xƒZƒ“ƒT‚ÌˆÀ‚¢•ûB
-APB1‚ÆAPB2‚ÌŽü”g”‚ð 8MHz –¢–ž‚É‚·‚é‚Æ I2C ‚ª‚¿‚á‚ñ‚Æ“®‚©‚È‚¢B‚í‚©‚ç‚È‚¢B“Á‚É‚Ü‚¾¢‚Á‚Ä‚È‚¢‚Ì‚Å‚»‚Ì‚Ü‚Ü‚É‚µ‚Ä‚¢‚Ü‚·B
-
-
+|  |  |
+|---|---|
+| Groveã®3è»¸åŠ é€Ÿåº¦ã‚»ãƒ³ã‚µã®å®‰ã„æ–¹ | Grove3AxisDigitalAccelerometer15.cpp |
+| RTC | RTC.cpp |
 
