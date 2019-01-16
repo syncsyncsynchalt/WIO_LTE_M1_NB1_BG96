@@ -1,11 +1,11 @@
 /**
- * Grove��3�������x�Z���T�̈�����
+ * Groveの3軸加速度センサの安い方
  * https://www.seeedstudio.com/Grove-3-Axis-Digital-Accelerometer-1-5-p-765.html
  *
  *
  *
- * �}�C�R���̎��g���������Ďg���Ƃ��̒��ӁB
- * APB1��APB2�� 8MHz �����ɂ���� I2C �������Ɠ����Ȃ��B�킩��Ȃ��B���ɂ܂������ĂȂ��̂ł��̂܂܂ɂ��Ă��܂��B
+ * マイコンの周波数を下げて使うときの注意。
+ * APB1とAPB2を 8MHz 未満にすると I2C がちゃんと動かない。わからない。特にまだ困ってないのでそのままにしています。
  *
  */
 
