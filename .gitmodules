@@ -6,3 +6,6 @@
 	path = Wio_cell_lib_for_Arduino
 	url = https://github.com/syncsyncsynchalt/Wio_cell_lib_for_Arduino.git
 	branch = develop
+[submodule "STM32RTC"]
+	path = STM32RTC
+	url = https://github.com/stm32duino/STM32RTC.git

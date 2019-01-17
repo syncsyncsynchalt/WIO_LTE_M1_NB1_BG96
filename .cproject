@@ -34,7 +34,7 @@
 								</outputEntries>
 							</builder>
 							<tool command="gcc" id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.866898194" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler">
-								<option defaultValue="gnu.c.optimization.level.none" id="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.1510388312" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.c.optimization.level.none" valueType="enumerated"/>
+								<option defaultValue="gnu.c.optimization.level.none" id="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.1510388312" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.c.optimization.level.most" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.210915837" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.1557242497" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/Boards/STM32F439VITx/Drivers/STM32F4xx_HAL_Driver/Inc"/>
@@ -42,18 +42,21 @@
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/Boards/STM32F439VITx/Drivers/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/Boards/STM32F439VITx/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/Boards/STM32F439VITx/Inc"/>
-									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/DSL"/>
+									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/Arduino_Core_STM32"/>
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/avr"/>
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino"/>
+									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/DSL"/>
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src/Internal/slre.901d42c"/>
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src/Internal"/>
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src"/>
+									<listOptionValue builtIn="false" value="../STM32RTC/src"/>
 									<listOptionValue builtIn="false" value="../src"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1768070081" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__weak=__attribute__((weak))"/>
 									<listOptionValue builtIn="false" value="__packed=__attribute__((__packed__))"/>
 									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F4xx"/>
 									<listOptionValue builtIn="false" value="STM32F439xx"/>
 									<listOptionValue builtIn="false" value="ARDUINO_WIO_LTE_M1NB1_BG96"/>
 									<listOptionValue builtIn="false" value="WIO_DEBUG"/>
@@ -64,7 +67,7 @@
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.102234288" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
 							</tool>
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.204869331" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler">
-								<option defaultValue="gnu.cpp.optimization.level.none" id="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.2105322304" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.cpp.optimization.level.none" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.optimization.level.none" id="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.2105322304" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.cpp.optimization.level.most" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.debugging.level.360736757" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1432225686" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/Boards/STM32F439VITx/Drivers/STM32F4xx_HAL_Driver/Inc"/>
@@ -72,18 +75,21 @@
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/Boards/STM32F439VITx/Drivers/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/Boards/STM32F439VITx/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/Boards/STM32F439VITx/Inc"/>
-									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/DSL"/>
+									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/Arduino_Core_STM32"/>
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/avr"/>
 									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino"/>
+									<listOptionValue builtIn="false" value="../SeeedJP_STM32F4/cores/Arduino/DSL"/>
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src/Internal/slre.901d42c"/>
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src/Internal"/>
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src"/>
+									<listOptionValue builtIn="false" value="../STM32RTC/src"/>
 									<listOptionValue builtIn="false" value="../src"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.934880283" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__weak=__attribute__((weak))"/>
 									<listOptionValue builtIn="false" value="__packed=__attribute__((__packed__))"/>
 									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F4xx"/>
 									<listOptionValue builtIn="false" value="STM32F439xx"/>
 									<listOptionValue builtIn="false" value="ARDUINO_WIO_LTE_M1NB1_BG96"/>
 									<listOptionValue builtIn="false" value="WIO_DEBUG"/>
@@ -127,6 +133,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Arduino"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="STM32RTC"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="SeeedJP_STM32F4"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Wio_cell_lib_for_Arduino"/>
@@ -245,6 +252,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Arduino"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="STM32RTC"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="SeeedJP_STM32F4"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Wio_cell_lib_for_Arduino"/>
