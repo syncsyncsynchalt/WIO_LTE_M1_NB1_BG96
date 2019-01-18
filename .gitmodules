@@ -9,3 +9,8 @@
 [submodule "STM32RTC"]
 	path = STM32RTC
 	url = https://github.com/stm32duino/STM32RTC.git
+	branch = develop
+[submodule "STM32LowPower"]
+	path = STM32LowPower
+	url = https://github.com/syncsyncsynchalt/STM32LowPower.git
+	branch = develop
