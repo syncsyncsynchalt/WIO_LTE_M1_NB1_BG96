@@ -14,3 +14,7 @@
 	path = STM32LowPower
 	url = https://github.com/syncsyncsynchalt/STM32LowPower.git
 	branch = develop
+[submodule "OLED_Display_128X64"]
+	path = OLED_Display_128X64
+	url = https://github.com/syncsyncsynchalt/OLED_Display_128X64.git
+	branch = develop

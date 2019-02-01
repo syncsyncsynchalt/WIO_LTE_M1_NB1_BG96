@@ -51,6 +51,7 @@
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src"/>
 									<listOptionValue builtIn="false" value="../STM32RTC/src"/>
 									<listOptionValue builtIn="false" value="../STM32LowPower/src"/>
+									<listOptionValue builtIn="false" value="../OLED_Display_128X64"/>
 									<listOptionValue builtIn="false" value="../src"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1768070081" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -85,6 +86,7 @@
 									<listOptionValue builtIn="false" value="../Wio_cell_lib_for_Arduino/src"/>
 									<listOptionValue builtIn="false" value="../STM32RTC/src"/>
 									<listOptionValue builtIn="false" value="../STM32LowPower/src"/>
+									<listOptionValue builtIn="false" value="../OLED_Display_128X64"/>
 									<listOptionValue builtIn="false" value="../src"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.934880283" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -135,6 +137,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Arduino"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="OLED_Display_128X64"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="STM32LowPower"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="STM32RTC"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="SeeedJP_STM32F4"/>
@@ -255,6 +258,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Arduino"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="OLED_Display_128X64"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="STM32LowPower"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="STM32RTC"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="SeeedJP_STM32F4"/>
